@@ -351,6 +351,16 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 .work li p{
   clear: both;
 }
+.detaillist{
+  list-style-type: none;
+}
+.work .details{
+  border-bottom: none;
+  margin-bottom: 0;
+}
+.work .details p{
+  margin-bottom: 0.5em;
+}
 
 /* Portfolio */
 .image{
