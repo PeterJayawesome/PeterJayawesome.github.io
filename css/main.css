@@ -398,11 +398,17 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   -ms-transform: rotateY(0deg);
   transform: rotateY(0deg);
 }
+.image-overlay p{
+  color: white;
+}
 .image-overlay .image-link{
   position: relative;
   top: 50%;
   display: inline-block;
   margin-top: -20px;
+}
+.image-link{
+  transform: translate(0,-40%);
 }
 /* Icon Box */
 .sny-icon{
